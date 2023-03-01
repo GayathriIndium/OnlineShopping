@@ -59,4 +59,4 @@ clf.predict([[120, 990]])
 
 clf.predict([[85, 550]])
 
-
+#prediction done
