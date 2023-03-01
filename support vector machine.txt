@@ -54,7 +54,6 @@ clf = SVC(kernel='linear')
 # fitting x samples and y classes
 clf.fit(x, y)
 
-#prediction1
 clf.predict([[120, 990]])
 #prediction2
 clf.predict([[85, 550]])
