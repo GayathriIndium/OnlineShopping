@@ -55,6 +55,7 @@ clf = SVC(kernel='linear')
 clf.fit(x, y)
 
 #prediction1
+#predict it by 120 and 990
 clf.predict([[120, 990]])
 #prediction2
 clf.predict([[85, 550]])
