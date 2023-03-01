@@ -42,7 +42,7 @@ x = np.column_stack((x.malignant,x.benign))
 
 # 569 samples and 2 features
 x.shape
-
+#printing
 print (x),(y)
 
 
