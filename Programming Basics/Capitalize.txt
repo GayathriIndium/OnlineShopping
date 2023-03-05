@@ -1,0 +1,23 @@
+import java.util.*;
+public class capitalize{
+    public static void main(String[]args){
+        String in,res;
+        Scanner sc=new Scanner(System.in);
+        in=sc.nextLine();
+        char[] arr=in.toCharArray();
+        Boolean p=true;
+        for(int i=0;i<arr.length;i++){
+            if(Character.isLetter(arr[i])){
+                if(p){
+                    arr[i]=Character.toUpperCase(arr[i]);
+                    p=false;
+                }
+            }
+            else{
+                p=true;
+            }
+        }
+        res=String.valueOf(arr);
+        System.out.println(res);
+    }
+}

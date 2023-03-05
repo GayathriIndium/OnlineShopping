@@ -1,0 +1,17 @@
+swap two numbers in java
+
+import java.util.*;
+public class swap{
+    public static void main(String[]args){
+        float a,b;
+        System.out.println("Enter the input numbers");
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextFloat();
+        b=sc.nextFloat();
+        a=a-b;
+        b=a+b;
+        a=b-a;
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
